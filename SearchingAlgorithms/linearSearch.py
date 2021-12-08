@@ -14,7 +14,7 @@ def verify(index):
     else:
        print("Target not found in list")
 
-numbers=[0,1,2,3,4,5,6,7,9,10]    # lis has to be sorted
+numbers=[0,1,2,3,4,5,6,7,9,10]    # list has to be sorted
 
 result= linear_search(numbers,12)
 verify(result)
